@@ -23,6 +23,7 @@
 `2022-08-08` - `2022-10-16`
 <br/>
 
+
 ## 🎨 DESIGN
 - [와이어프레임](https://www.figma.com/file/gskrs6EakmR3aS3IjoYogu/mediger-fin?node-id=0%3A1)
 <br/>
@@ -53,6 +54,26 @@
 ## ERD
 
 
-## BE Repository 💊
+## Main Function
+- 의약품 검색 서비스 제공
+    - 증상, 의약품명별 의약품 상세 조회 기능
+    - 약물별 스크랩 추가 및 삭제 기능
+    - 메디저 리스트 추가 기능
+
+- 주변 약국 및 병원 검색 서비스 제공
+    - 카카오맵 API를 이용하여 현 위치 근처 병원 및 약국 조회 기능
+    - 현 위치 근처 병원 및 약국 리스트별 조회 기능
+
+- 메디저 리스트 서비스 제공
+    - 메디저 리스트에 추가한 약물 조회 기능
+    - 시간대별, 일자별 약 복용 방법 설정 기능
+
+- 월간, 일간 메디저 서비스 제공
+    - 스크랩한 약물 조회 기능
+    - 캘린더를 이용한 이전 복용 이력 조회 기능
+
+
+
+## 💊 BE Repository
 
 [Mediger BE](https://github.com/ITCompetition-Mediger/Mediger-backend-API)
